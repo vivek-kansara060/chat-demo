@@ -1,0 +1,73 @@
+{
+  "name": "portal",
+  "version": "0.1.0",
+  "main": "server.js",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/lab": "^5.0.0-alpha.114",
+    "@mui/material": "^5.11.3",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.1",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "demo-button-lib": "^1.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-form-data": "^2.0.22",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.40",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "react": "^18.0.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.0.0",
+    "react-redux": "^7.0.0",
+    "react-router-dom": "^6.6.0",
+    "react-scripts": "5.0.1",
+    "react-use-websocket": "^4.3.1",
+    "redux": "^4.2.0",
+    "redux-form": "^8.3.9",
+    "redux-thunk": "^2.4.2",
+    "sequelize": "^6.27.0",
+    "url-pattern": "^1.0.3",
+    "web-vitals": "^2.1.4",
+    "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.5.2"
+  },
+  "scripts": {
+    "start": "PORT=4001 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
